@@ -72,7 +72,7 @@ public class Factorial {
 		// YOUR CODE STARTS HERE
 
 		// Iterative approach to solving for factorial.
-		for (int begin = 1; begin < num + 1; begin++) {
+		for (int begin = 1; begin <= num; begin++) {
 
 			result *= begin;
 
