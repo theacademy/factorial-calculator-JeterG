@@ -1,6 +1,7 @@
 # Java Assignment: Factorial Calculator
 
 ## Problem Statement
+
 For this assignment, you will write a Java program that calculates and prints the factorial for a number input by the user.
 
 The factorial of a positive integer `num` is the product of all numbers in the range from 1 to `num`.
@@ -10,11 +11,10 @@ For example: `Factorial(4) = 1 * 2 * 3 * 4`, which gives the result of 24.
 - **Input Format:** The user can input a value to be used in the calculation.
 - **Output Format:** The program will output a single value showing the factorial of the number input by the user.
 - **Constraints:**
-    - The input value must be:
-      - An integer
-      - Positive
-      - Between 1 and 10, inclusive
-
+  - The input value must be:
+    - An integer
+    - Positive
+    - Between 1 and 10, inclusive
 
 ## Instructions
 
@@ -24,9 +24,9 @@ Update only the existing **Factorial.java** class in the starter code provided. 
 
 Update the existing `isInputNumberValid` method to accept a number from the user and test whether the number is valid.
 
-- Write code to accept a number from the user and store the value in an instance variable `num`. 
-
+- Write code to accept a number from the user and store the value in an instance variable `num`.
   - Use an instance variable `scanner` to accept the input from the user.
+
 - If the input value is valid, return the number input by the user (NOT the factorial of the number).
 - In case of invalid input, print the following message to the console:
   - "Invalid entry. Please enter an integer between 1 and 10, inclusive."
@@ -38,10 +38,10 @@ Update the existing `private void calculateFactorial` method to calculate and ou
 
 ### Step 1: Verify the Setup Requirements
 
-* Java version 11 installed with the JAVA_HOME path variable
-* An IDE with required plugins for Java 
-* Git
-* A GitHub account
+- Java version 11 installed with the JAVA_HOME path variable
+- An IDE with required plugins for Java
+- Git
+- A GitHub account
 
 ### Step 2: Access GitHub Classroom and the Repository
 
@@ -59,13 +59,13 @@ Read the problem statement carefully to be sure you understand what the code is 
 
 Open the indicated .java file on your computer. Make changes only to that file.
 
-The .java file includes comments to indicate where you should add your code. 
+The .java file includes comments to indicate where you should add your code.
 
-* All new code must be added inside the placeholders provided. 
-* Do not delete the placeholder comments.
-* Do not change any existing code elsewhere in the project.
-* Do not alter existing class names, interface names, method signatures, or attribute names.
-* Use Java naming conventions for the code you create. 
+- All new code must be added inside the placeholders provided.
+- Do not delete the placeholder comments.
+- Do not change any existing code elsewhere in the project.
+- Do not alter existing class names, interface names, method signatures, or attribute names.
+- Use Java naming conventions for the code you create.
 
 The placeholders for your code will look like:
 
